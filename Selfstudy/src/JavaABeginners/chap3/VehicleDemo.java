@@ -1,4 +1,7 @@
-package JavaABeginners.cha3;
+package JavaABeginners.chap3;
+
+
+
 
 class Vehicle {
 	int passengers; // number of passengers
