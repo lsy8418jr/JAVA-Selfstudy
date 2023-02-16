@@ -7,6 +7,9 @@ class Vehicle {
 	int passengers; // number of passengers
 	int fuelcap; // fuel capacity in gallons
 	int mpg; // fuel consumption in miles per gallon
+	void range() {
+		System.out.println("range is "+fuelcap*mpg);
+	}
 }
 
 public class VehicleDemo {
@@ -23,9 +26,13 @@ public class VehicleDemo {
 		sportscar.fuelcap = 14;
 		sportscar.mpg = 12;
 		// compute the ranges assuming a full tank of gas
-		range1 = minivan.fuelcap * minivan.mpg;
-		range2 = sportscar.fuelcap * sportscar.mpg;
-		System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1);
-		System.out.println("Sportscar can carry " + sportscar.passengers + " with a range of " + range2);
+		
+//		  range1 = minivan.fuelcap * minivan.mpg; range2 = sportscar.fuelcap *
+//		  sportscar.mpg; System.out.println("Minivan can carry " + minivan.passengers +
+//		  " with a range of " + range1); System.out.println("Sportscar can carry " +
+//		  sportscar.passengers + " with a range of " + range2);
+		
+		minivan.range();
+		 
 	}
 }
