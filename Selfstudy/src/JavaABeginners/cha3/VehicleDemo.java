@@ -5,6 +5,7 @@ class Vehicle {
 	int fuelcap; // fuel capacity in gallons
 	int mpg; // fuel consumption in miles per gallon
 }
+
 public class VehicleDemo {
 	public static void main(String[] args) {
 		Vehicle minivan = new Vehicle();
