@@ -3,7 +3,7 @@ package JavaABeginners.chap3;
 
 
 
-class Vehicle {
+ class vehicle {
 	int passengers; // number of passengers
 	int fuelcap; // fuel capacity in gallons
 	int mpg; // fuel consumption in miles per gallon
@@ -12,10 +12,10 @@ class Vehicle {
 	}
 }
 
-public class VehicleDemo {
+public class vehicleDemo {
 	public static void main(String[] args) {
-		Vehicle minivan = new Vehicle();
-		Vehicle sportscar = new Vehicle();
+		vehicle minivan = new vehicle();
+		vehicle sportscar = new vehicle();
 		int range1, range2;
 		// assign values to fields in minivan
 		minivan.passengers = 7;
