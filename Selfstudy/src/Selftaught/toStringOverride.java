@@ -1,3 +1,4 @@
+package Selftaught;
 
 class Card {
 	String kind;

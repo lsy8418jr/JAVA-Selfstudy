@@ -1,3 +1,6 @@
+
+package Selftaught;
+
 import java.util.*;
 
 public class Iterator {

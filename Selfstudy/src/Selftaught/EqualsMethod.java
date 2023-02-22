@@ -1,3 +1,5 @@
+package Selftaught;
+
 class Person{
 	int id;
 	

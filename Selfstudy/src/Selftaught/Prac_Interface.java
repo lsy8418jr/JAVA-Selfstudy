@@ -1,3 +1,4 @@
+package Selftaught;
 abstract class A1 {
 	int x, y;
 
