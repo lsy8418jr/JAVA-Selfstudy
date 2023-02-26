@@ -33,6 +33,8 @@ public class ErrInfo {
 		e=err.getErrorInfo(2);
 		System.out.println(e.msg);
 		System.out.println("severity is "+e.severity);
+		
+		
 	}
 
 }
