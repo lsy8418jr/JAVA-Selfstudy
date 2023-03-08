@@ -3,13 +3,13 @@ package JavaABeginners.chap7;
 
 class SuperA1 {
 	public SuperA1() {
-
 		System.out.println("Constructing A.");
 	}
 }
 
 class SubB1 extends SuperA1 {
 	SubB1() {
+
 		System.out.println("Constructing B.");
 	}
 }
@@ -24,7 +24,6 @@ public class OrderOfConstruction {
 
 	public static void main(String[] args) {
 
-		
 		C obC = new C();
 	}
 
