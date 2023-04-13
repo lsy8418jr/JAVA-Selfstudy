@@ -13,7 +13,7 @@ public class NotString {
 public static void main(String[] args) {
 	System.out.println(notString("x") );
 	System.out.println(notString("is not"));
-	
+	System.out.println();
 	System.out.println(notString("not mine"));
 }
 
