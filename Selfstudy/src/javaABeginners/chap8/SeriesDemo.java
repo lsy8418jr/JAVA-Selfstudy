@@ -1,7 +1,7 @@
 package javaABeginners.chap8;
 
 //This interface is declared public so that it can be implemented by code in any package.
-public interface Series {
+ interface Series {
 	int getNext(); // return next number in series
 	
 	void reset();// restart
