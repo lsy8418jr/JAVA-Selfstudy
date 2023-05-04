@@ -3,7 +3,7 @@ package Selftaught._05022023;
 public class DemoToString {
 	public static void main(String[] args) {
 		DemoCar ob = new DemoCar();
-		System.out.println(ob);
+		System.out.println(ob.toString());
 	}
 }
 

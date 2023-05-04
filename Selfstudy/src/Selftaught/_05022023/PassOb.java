@@ -19,6 +19,6 @@ class Car {
 
 class Garage {
 	void park(Car ob) {
-		System.out.println("Your "+ob.name + " is parked");
+		System.out.println("Your " + ob.name + " is parked");
 	}
 }
