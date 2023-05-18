@@ -13,7 +13,7 @@ class StrOps {
 
 		char ch;
 
-		 System.out.println("Length of str1: " + str1.length());
+		System.out.println("Length of str1: " + str1.length());
 // display str1, one char at a time.
 
 		for (int i = 0; i < str1.length(); i++)
