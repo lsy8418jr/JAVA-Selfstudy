@@ -2,7 +2,7 @@ package javaABeginners.chap6;
 
 class MyClass1 {
 	int x;
-	double y;
+
 
 	MyClass1() {
 		System.out.println("inside MyClass()  ");
@@ -16,7 +16,7 @@ class MyClass1 {
 
 	MyClass1(double d) {
 		System.out.println("inside MyClass(double) :");
-		y = d;
+		x = (int)d;
 	}
 
 	MyClass1(int i, int j) {
@@ -31,10 +31,9 @@ public class OverloadConsDemo {
 		MyClass1 t1 = new MyClass1();
 		MyClass1 t2 = new MyClass1(88);
 		System.out.println("test");
-		
+
 		MyClass1 t3 = new MyClass1(17.23);
 		MyClass1 t4 = new MyClass1(2, 5);
-		
 
 		System.out.println("t1.x: " + t1.x);
 		System.out.println("t2.x: " + t2.x);

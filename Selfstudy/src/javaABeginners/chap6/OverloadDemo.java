@@ -22,15 +22,14 @@ class Overload {
 }
 
 public class OverloadDemo {
-public static void main(String[] args) {
-	Overload ob= new Overload();
-	int resI;
-	double resD;
-	
-	
-	ob.ovlDemo();
-	ob.ovlDemo(2);
-	System.out.println("two int adding : "+ob.ovlDemo(3, 6));
-	System.out.println(ob.ovlDemo(1.1, 3.56));
-}
+	public static void main(String[] args) {
+		Overload ob = new Overload();
+		int resI;
+		double resD;
+
+		ob.ovlDemo();
+		ob.ovlDemo(2);
+		System.out.println("two int adding : " + ob.ovlDemo(3, 6));
+		System.out.println(ob.ovlDemo(1.1, 3.56));
+	}
 }
