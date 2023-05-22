@@ -1,8 +1,6 @@
 package javaABeginners.chap10._05222023;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class ShowFile {
 	public static void main(String[] args) {
@@ -28,9 +26,10 @@ public class ShowFile {
 			} while (i != -1);
 		} catch (IOException exc) {
 			System.out.println("error reading file");
-		}try {
+		}
+		try {
 			fin.close();
-		}catch(IOException exc) {
+		} catch (IOException exc) {
 			System.out.println("error closing file");
 		}
 	}
