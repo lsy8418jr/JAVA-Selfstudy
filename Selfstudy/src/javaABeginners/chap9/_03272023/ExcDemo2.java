@@ -1,4 +1,4 @@
-package javaABeginners.chap9.March272023;
+package javaABeginners.chap9._03272023;
 
 class ExcTest {
 	static void genException() {

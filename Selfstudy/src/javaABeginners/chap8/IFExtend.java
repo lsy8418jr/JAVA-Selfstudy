@@ -2,7 +2,6 @@ package javaABeginners.chap8;
 
 interface MyMath {
 	void math1();
-
 	void math2();
 }
 
@@ -26,11 +25,11 @@ class MyClass implements MyMath3 {
 }
 
 public class IFExtend {
-public static void main(String[] args) {
-	MyClass ob=new MyClass();
-	ob.math1();
-	ob.math2();
-	ob.math3();
-	
-}
+	public static void main(String[] args) {
+		MyClass ob = new MyClass();
+		ob.math1();
+		ob.math2();
+		ob.math3();
+
+	}
 }

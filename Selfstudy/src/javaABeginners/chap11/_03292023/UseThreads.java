@@ -9,7 +9,7 @@ class MyThread implements Runnable {
 	}
 
 	// Entry point of thread
-	public void run() {		 // Threads start executing here.
+	public void run() { // Threads start executing here.
 		System.out.println(thrdName + " starting.");
 		try {
 			for (int count = 0; count < 10; count++) {
@@ -29,13 +29,13 @@ public class UseThreads {
 		System.out.println("Main thread starting.");
 
 //First, construct a MyThread object.
-		MyThread mt = new MyThread("child #1");		 // Create a runnable object.
+		MyThread mt = new MyThread("child #1"); // Create a runnable object.
 
 //Next, construct a thread from that object.
-		Thread newThrd = new Thread(mt); 		// Construct a thread on that object.
+		Thread newThrd = new Thread(mt); // Construct a thread on that object.
 
 //Finally, start execution of the thread.
-		newThrd.start(); 		// Start running the thread.
+		newThrd.start(); // Start running the thread.
 
 		for (int i = 0; i < 50; i++) {
 			System.out.println(".");
