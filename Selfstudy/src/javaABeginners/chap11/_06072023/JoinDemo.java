@@ -32,7 +32,7 @@ public class JoinDemo {
 		th2.start();
 
 		try {
-			th1.join(); //main method wait till finish thread th1 and th2
+			th1.join(); // main method wait till finish thread th1 and th2
 			th2.join();
 		} catch (InterruptedException e) {
 		}
