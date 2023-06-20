@@ -13,8 +13,7 @@ class Outer {
 		System.out.println("Maximum: " + inOb.max());
 		System.out.println("Average: " + inOb.avg());
 	}
-	
-	
+
 //---------------------inner class---------------------
 	class Inner {
 		int min() {
