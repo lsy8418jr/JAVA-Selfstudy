@@ -9,7 +9,7 @@ public class SwingDemo {
 		jfrm.setSize(400, 400);
 		jfrm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // terminate on close
 		jfrm.setResizable(false);
-		
+
 		JLabel jlab = new JLabel(" Swing defines the modern java GUI");
 		jfrm.add(jlab);
 		jfrm.setVisible(true);
