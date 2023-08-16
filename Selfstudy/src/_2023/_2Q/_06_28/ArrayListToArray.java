@@ -20,8 +20,12 @@ public class ArrayListToArray {
 		for (int i : ia) {
 			sum += i;
 		}
-		for (int i = 0; i < ia.length; i++) {
-			System.out.print(ia[i] + " ");
+	//	for (int i = 0; i < ia.length; i++) {
+	//		System.out.print(ia[i] + " ");
+	//	}
+		
+		for(int a:ia) {
+			System.out.print(a+" ");
 		}
 		System.out.println();
 		System.out.println("sum is " + sum);
